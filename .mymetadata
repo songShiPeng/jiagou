@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jiagou"
+  id="myeclipse.1461753656403"
+  context-root="/jiagou"
+  j2ee-spec="6.0"
+  archive="jiagou.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
