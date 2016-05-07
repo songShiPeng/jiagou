@@ -1,0 +1,65 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	height: 100%;
+}
+
+#topMain {
+	height: 90px;
+	background: url(../App_Themes/images/main_03.gif) repeat-x;
+}
+
+#topMain #systemTitle {
+	float: left;
+}
+
+#topMainMenu {
+	height: 50px;
+	margin-left: 410px;
+}
+
+#mainTopRight {
+	background: url(../App_Themes/images/main_05.gif) no-repeat;
+	width: 113px;
+	height: 50px;
+	float: right;
+}
+
+#topMainMessage {
+	font-weight: bold;
+	line-height: 40px;
+	background: url(../App_Themes/images/main_22.gif) repeat-x;
+	height: 40px;
+	margin-left: 410px;
+}
+
+#top_down_help {
+	cursor: hand;
+	float: right;
+	padding-right: 10px;
+	font-weight: normal;
+}
+
+#top_down_help img {
+	float: left;
+	margin-top: 13px;
+}
+
+#top_up_center {
+	height: 18px;
+	position: absolute;
+	margin-top: 11px;
+	top: 21px;
+	left: 660px;
+}
+
+#top_up_center li {
+	float: left;
+	margin-left: 2px;
+	list-style: none;
+}
+
+#top_down_center {
+	float: left;
+}

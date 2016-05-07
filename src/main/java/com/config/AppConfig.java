@@ -5,6 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import com.common.MemcachedTools;
 import com.dao.CategoryDAO;
 
 /**
@@ -31,5 +32,15 @@ public class AppConfig {
 	@Bean
 	public CategoryDAO categoryDAO(){
 		return new CategoryDAO();
+	}
+	
+	/**
+	 * 初始化memcached连接
+	 * @return
+	 */
+	@Bean
+	public MemcachedTools memcachedTools(){
+		System.out.println("初始化mem");
+		return new MemcachedTools();
 	}
 }
